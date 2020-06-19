@@ -92,7 +92,7 @@ button {
 }
 .btn {
     width: 3.5rem;
-    border: 0.1rem solid gray;
+    border: 0.4rem solid gray;
     font-size: 2.3rem;
     text-align: center;
     cursor: pointer;
@@ -101,7 +101,7 @@ button {
 .add {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
-    border-left: 0.05rem solid gray;
+    border-left: 0.4rem solid gray;
 }
 .substr {
     border-right: none;
