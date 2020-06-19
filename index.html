@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=MuseoModerno&family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+            integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA="
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./game_style.css" />
+        <title>Guessing game</title>
+    </head>
+    <body>
+        <h1 class="title-header">Number Guesser</h1>
+        <h2 class="round-header">Round 1</h2>
+        <p class="normal target-num">Target number: ?</p>
+        <div class="guess-area-btn">
+            <div class="guess-area">
+                <div class="computer-guess guess">
+                    <p class="normal">Computer</p>
+                    <p class="computer-score score">Score: 0</p>
+                    <div class="computer-icon">
+                        <i class="fas fa-question"></i>
+                    </div>
+                </div>
+                <div class="user-guess guess">
+                    <p class="normal">User</p>
+                    <p class="user-score score">Score: 0</p>
+                    <input
+                        type="number"
+                        name="user-number"
+                        id="user-number"
+                        min="0"
+                        max="9"
+                    />
+                    <div class="buttons">
+                        <div class="substr btn">-</div>
+                        <div class="add btn">+</div>
+                    </div>
+                    <button class="make-guess">Make Guess</button>
+                </div>
+            </div>
+            <button class="next-round">Next Round</button>
+        </div>
+
+        <script src="./game.js"></script>
+    </body>
+</html>

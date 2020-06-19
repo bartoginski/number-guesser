@@ -1,0 +1,133 @@
+/*fonts*/
+/* font-family: 'MuseoModerno', cursive;
+font-family: 'Poppins', sans-serif; */
+
+/*defaults settings*/
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+html {
+    font-size: 62.5%;
+}
+
+/*normal code */
+
+/* by tags */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+p {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(33, 73, 105);
+    color: white;
+    border: none;
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+/*by class */
+
+/*display divs*/
+.guess-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 60vh;
+    padding: 1rem;
+}
+
+.guess-area-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guess {
+    background-color: lightblue;
+    width: 40%;
+    height: 70%;
+    margin: 0 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*styling */
+
+.title-header {
+    font-size: 4rem;
+    margin: 1rem 0 0;
+}
+
+.round-header {
+    font-size: 3rem;
+    margin: 0;
+}
+.target-num {
+    margin: 0;
+}
+/* +/- buttons */
+.buttons {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    width: 3.5rem;
+    border: 0.1rem solid gray;
+    font-size: 2.3rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.add {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-left: 0.05rem solid gray;
+}
+.substr {
+    border-right: none;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+.add:hover {
+    background-color: rgb(190, 189, 189);
+}
+
+.substr:hover {
+    background-color: rgb(190, 189, 189);
+}
+
+.make-guess {
+    margin: 1rem;
+}
+
+#user-number {
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+}
+/*computer section*/
+.fa-question {
+    font-size: 7rem;
+    margin: 4rem;
+    color: gray;
+}
