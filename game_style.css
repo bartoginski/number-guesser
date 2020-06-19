@@ -97,6 +97,10 @@ button {
     text-align: center;
     cursor: pointer;
 }
+.disable-btn {
+    background-color: #c7c5c5;
+    cursor: auto;
+}
 
 .add {
     border-top-right-radius: 50%;
@@ -109,11 +113,11 @@ button {
     border-bottom-left-radius: 50%;
 }
 .add:hover {
-    background-color: rgb(190, 189, 189);
+    background-color: #c7c5c5;
 }
 
 .substr:hover {
-    background-color: rgb(190, 189, 189);
+    background-color: #c7c5c5;
 }
 
 .make-guess {
